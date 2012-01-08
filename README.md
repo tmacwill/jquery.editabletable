@@ -2,6 +2,7 @@ jQuery EdiTableTable
 =============
 
 jQuery EdiTableTable is a simple plugin that creates a list of items with add/edit/delete capability. Just provide it with URLs for each of these actions, and you're good to go.
+Depends on [underscore.js](http://documentcloud.github.com/underscore/) and looks much better with [Bootstrap](http://twitter.github.com/bootstrap/).
 
     $('#items').ediTableTable({
         // URL to POST data to create a new item. MUST return a JSON object containing an "id" field
