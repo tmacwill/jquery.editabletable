@@ -1,0 +1,26 @@
+.editable-container .editable-items .hover-controls {
+	display: none;
+	float: right;
+}
+
+.editable-container .editable-items td:hover .hover-controls {
+	display: inline-block;
+}
+
+.editable-container .editable-items .item-name {
+	display: inline-block;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.editable-container .editable-items .btn-save {
+	display: none;
+}
+
+.editable-container .new-controls {
+	display: none;
+}
+
+.editable-contaner .btn-new-submit {
+	margin-left: 5px;
+}
